@@ -1,0 +1,18 @@
+{
+  "name": "ski-resort-api",
+  "version": "1.0.0",
+  "description": "Small server that runs on port 3333 to serve ski resort names. This is a working version based on the Lynda Learning Redux class since the version they're distributing doesn't work at all.",
+  "main": "index.js",
+  "scripts": {
+    "suggestions": "./node_modules/.bin/babel-node ./server --port 3333 --delay 500"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "minimist": "^1.2.0"
+  }
+}
